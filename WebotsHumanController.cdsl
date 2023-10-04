@@ -1,0 +1,12 @@
+import "Laser.idsl";
+import "OmniRobot.idsl";
+
+Component WebotsHumanController
+{
+    Communications
+    {
+        implements Laser, OmniRobot;
+    };
+    language Cpp11;
+};
+
